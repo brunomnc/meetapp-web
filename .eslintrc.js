@@ -26,4 +26,11 @@ module.exports = {
     'no-param-reassing': 'off',
     'no-console': ['error', { allow: ['tron'] }],
   },
+  settings: {
+    'import/resolver': {
+      'babel-plugin-root-import': {
+        rootPathSuffix: 'src',
+      },
+    },
+  },
 };
